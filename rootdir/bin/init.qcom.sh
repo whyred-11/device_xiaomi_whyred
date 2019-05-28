@@ -431,6 +431,7 @@ fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
 
+
 #check build variant for printk logging
 #current default minimum boot-time-default
 buildvariant=`getprop ro.build.type`
@@ -444,3 +445,6 @@ case "$buildvariant" in
         echo "4 4 1 4" > /proc/sys/kernel/printk
         ;;
 esac
+
+# Remove settings cache, avoids derps after dirty flash
+rm -rf /data/system/package_cache
