@@ -462,7 +462,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcutils_shim
+    libcutils_shim \
+    libcamera_sdm660_shim
 
 # SQlite
 PRODUCT_PACKAGES += \

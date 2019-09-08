@@ -83,6 +83,8 @@ patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/v
         patchelf --add-needed libcutils_shim.so "${2}"
         ;;
 
+patchelf --add-needed libcamera_sdm660_shim.so "$BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
+
 sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libicuuq.so
 sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libMiWatermark.so
 sed -i 's/libminikin.so/libminikiq.so/g' "$BLOB_ROOT"/vendor/lib/libMiWatermark.so
