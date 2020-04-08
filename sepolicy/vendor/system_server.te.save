@@ -15,4 +15,8 @@ r_dir_file(system_server, idc_file)
 r_dir_file(system_server, keylayout_file)
 
 dontaudit system_server sdcardfs:file { read };
-
+=======
+allow system_server vendor_keylayout_file:dir search;
+allow system_server vendor_keylayout_file:file r_file_perms;
+allow system_server sysfs_vibrator:file rw_file_perms;
+allow system_server sysfs
