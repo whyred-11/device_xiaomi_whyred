@@ -153,7 +153,6 @@ on boot
     mkdir /dev/socket/qmux_radio 0770 radio radio
     chmod 2770 /dev/socket/qmux_radio
 
-
     #define back flash and front flash
     chmod 0660 /sys/android_camera/sensor
     chmod 0660 /sys/class/leds/led:flash_0/brightness
@@ -182,6 +181,13 @@ on boot
 
     chmod 0770 /sys/class/power_supply/battery/device/thermalcall
     chown system system /sys/class/power_supply/battery/device/thermalcall
+
+  # LED torch permissions
+    chmod 0666 /sys/class/leds/led:torch_0/brightness
+    chmod 0666 /sys/class/leds/led:torch_1/brightness
+    chmod 0666 /sys/class/leds/led:switch_0/brightness
+    chmod 0666 /sys/class/leds/led:switch_1/brightness
+
 
     mkdir /persist/drm 0770 system system
     mkdir mnt/vendor/persist/bluetooth 0770 bluetooth bluetooth
