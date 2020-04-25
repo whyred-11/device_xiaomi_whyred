@@ -60,7 +60,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.spkr_prot.tx.sampling_rate=48000 \
     vendor.audio.adm.buffering.ms=12 \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
-    vendor.fm.a2dp.conc.disabled=true
+    vendor.fm.a2dp.conc.disabled=true \
+    vendor.audio.feature.vbat.enabl=true \
+    vendor.audio.feature.multi_voice_session.enable=true
 
 #add dynamic feature flags here
 PRODUCT_PROPERTY_OVERRIDES += \
