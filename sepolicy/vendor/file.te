@@ -31,3 +31,5 @@ type blkio_device, dev_type;
 
 # FPS Info
 type sysfs_fps, sysfs_type, fs_type;
+
+type viper_se, file_type;

@@ -42,4 +42,5 @@ allow vendor_toolbox {
     persist_time_file
     media_rw_data_file
     sensors_persist_file
+    viper_se
 }:file { getattr };
