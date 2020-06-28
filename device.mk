@@ -417,6 +417,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service \
 
+
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.class_main.sh \
