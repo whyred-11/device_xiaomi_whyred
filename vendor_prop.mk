@@ -202,6 +202,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.app.duration=21000000
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1
 
+# Disable vsync for cpu rendered apps
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.cpurend.vsync=false
+
 # iwlan vowifi corresponding
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.iwlan.enable=true
