@@ -54,5 +54,12 @@
             <name>IKeystore</name>
             <instance>default</instance>
         </interface>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 </compatibility-matrix>
