@@ -568,3 +568,7 @@ PRODUCT_BOOT_JARS += \
 # Wifi
 PRODUCT_PACKAGES += \
     WhyredWifiOverlay
+
+# Via
+PRODUCT_PACKAGES += \
+    Via
