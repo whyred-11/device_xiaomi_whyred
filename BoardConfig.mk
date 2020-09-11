@@ -65,7 +65,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
-TARGET_KERNEL_CONFIG := predator_defconfig
+TARGET_KERNEL_CONFIG := whyred_defconfig
 TARGET_KERNEL_VERSION := 4.4
 TARGET_KERNEL_CLANG_COMPILE := true
 
@@ -210,7 +210,7 @@ VENDOR_SECURITY_PATCH := 2020-10-01
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
