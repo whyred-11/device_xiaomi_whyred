@@ -492,7 +492,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
+    libcamera_sdm660_shim \
+    libcutils_shim
 
 # Tethering
 PRODUCT_PACKAGES += \

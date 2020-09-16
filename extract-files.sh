@@ -69,6 +69,10 @@ extract "$MY_DIR"/proprietary-files.txt "$SRC" \
 extract "$MY_DIR"/proprietary-camera-files.txt "$SRC" \
     "${KANG}" --section "${SECTION}"
 
+    product/lib64/libdpmframework.so)
+        patchelf --add-needed libcutils_shim.so "${2}"
+        ;;
+
 GOODIX="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/vendor/lib64/libgf_ca.so
 
 sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" $GOODIX
