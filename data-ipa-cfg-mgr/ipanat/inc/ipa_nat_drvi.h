@@ -43,10 +43,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "ipa_nat_logi.h"
 
-#ifdef DEBUG
 #define NAT_DUMP
-#endif
- 
+
 /*======= IMPLEMENTATION related data structures and functions ======= */
 #ifdef IPA_ON_R3PC
 #define NAT_MMAP_MEM_SIZE (2 * 1024UL * 1024UL - 1)

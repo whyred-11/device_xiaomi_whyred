@@ -4559,7 +4559,6 @@ fail:
 	return res;
 }
 
-
 int IPACM_Wan::del_wan_firewall_rule(ipa_ip_type iptype)
 {
 	if(iptype == IPA_IP_v4)
