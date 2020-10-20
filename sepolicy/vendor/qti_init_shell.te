@@ -16,3 +16,5 @@ allow qti_init_shell sysfs_vibrator:dir search;
 allow qti_init_shell sysfs_vibrator:file rw_file_perms;
 allow qti_init_shell sysfs_fpsinfo:dir search;
 allow qti_init_shell sysfs_fpsinfo:file rw_file_perms;
+allow qti_init_shell ctl_start_prop:property_service set;
+allow qti_init_shell ctl_stop_prop:property_service set;
