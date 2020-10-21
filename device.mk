@@ -413,6 +413,7 @@ PRODUCT_PACKAGES += \
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+    $(DEVICE_PATH)/configs/privapp-permission/privapp-permissions-google-restore.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-restore.xml
 
 # QCOM
 PRODUCT_COPY_FILES += \
