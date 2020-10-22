@@ -580,6 +580,7 @@ product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|68901007ba1a48ceb1b728fc3b5483dd51b5e3a0
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
 product/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
+product/framework/qti-telephony-common.jar|96154b2576114dd566bbc99a2d9af612de8849df
 product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
 vendor/bin/adpl|415d6ecea42c201c6754f2a9e8e258cc7fb245f6
@@ -696,9 +697,6 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|3f72f3b305fdf562bcc1538cfad68c840f7
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c98658c49
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
-
-# Radio - from cmi RKQ1.200710.002-V12.1.2.0.RJACNXM
-system_ext/framework/qti-telephony-common.jar|98951c48563c5846a58c9a3c4c254f32d0741f36
 
 # Sensors - from jasmine V11.0.11.0.QDIMIXM
 vendor/bin/sensors.qti|1613aa4572fbc6040e57c7ed0932529ea0247f49
