@@ -6,3 +6,4 @@ allow untrusted_app_27 sysfs_kgsl:file r_file_perms;
 allow untrusted_app_27 sysfs_devfreq:dir { search };
 allow untrusted_app_27 proc_zoneinfo:file read;
 allow untrusted_app_27 proc_qtaguid_stat:file read;
+allow untrusted_app_27 theme_prop:file { read open getattr };
