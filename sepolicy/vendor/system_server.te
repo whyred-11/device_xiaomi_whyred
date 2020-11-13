@@ -16,3 +16,4 @@ r_dir_file(system_server, keylayout_file)
 
 dontaudit system_server sdcardfs:file { read };
 
+allow system_server exported_camera_prop:file { read open getattr };

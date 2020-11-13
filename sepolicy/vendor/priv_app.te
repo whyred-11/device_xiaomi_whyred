@@ -4,3 +4,4 @@ allow priv_app sysfs_kgsl:dir { search };
 allow priv_app sysfs_graphics:file r_file_perms;
 allow priv_app theme_prop:file { read open getattr };
 
+allow priv_app exported_camera_prop:file { read open getattr };
