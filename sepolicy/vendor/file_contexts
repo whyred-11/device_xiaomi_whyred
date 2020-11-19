@@ -58,8 +58,8 @@
 # Thermal
 /data/vendor/thermal(/.*)?                                                                                                                      u:object_r:thermal_data_file:s0
 
-# USB HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.whyred                                                                      u:object_r:hal_usb_default_exec:s0
+# USB
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.basic                       u:object_r:hal_usb_default_exec:s0
 
 #blkio device
 /dev/blkio(/.*)?                                                                                                                                u:object_r:blkio_device:s0
