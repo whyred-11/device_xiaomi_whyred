@@ -14,6 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.iocgrp.config=1 \
     persist.vendor.backup.ntpServer=0.pool.ntp.org
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.disable_backpressure=1
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee \

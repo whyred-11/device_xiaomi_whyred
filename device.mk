@@ -196,6 +196,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk 
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Live Blur
+TARGET_DISABLE_BLUR := true
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
