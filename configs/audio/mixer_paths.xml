@@ -2499,6 +2499,10 @@
         <path name="headset-mic" />
     </path>
 
+    <path name="hph-lowpower-mode">
+        <ctl name="RX HPH Mode" value="CLS_H_LOHIFI" />
+    </path>
+
     <!-- Added for ADSP testfwk -->
     <path name="ADSP testfwk">
         <ctl name="INT0_MI2S_RX_DL_HL Switch" value="1" />
