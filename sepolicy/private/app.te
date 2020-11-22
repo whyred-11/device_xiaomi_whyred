@@ -1,4 +1,0 @@
-# Allow appdomain to get persist_camera_prop
-allow system_app persist_camera_prop:file { getattr open read map };
-get_prop(appdomain, persist_camera_prop)
-get_prop(appdomain, vendor_camera_prop)
