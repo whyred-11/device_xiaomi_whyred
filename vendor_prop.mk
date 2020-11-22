@@ -131,14 +131,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
-    persist.vendor.camera.stats.test=0 \
+    vendor.video.disable.ubwc=1 \
+    vidc.enc.dcvs.extra-buff-count=2 \
+    persist.vendor.camera.preview.ubwc=0 \
+    persist.vendor.camera.stats.test=5 \
     persist.vendor.camera.depth.focus.cb=0 \
+    persist.vendor.camera.imglib.usefdlite=1 \
     persist.vendor.camera.isp.clock.optmz=0 \
     persist.vendor.camera.linkpreview=0 \
     persist.vendor.camera.isp.turbo=1 \
     persist.vendor.camera.exif.make=Xiaomi \
     persist.vendor.camera.exif.model=Redmi Note 5 \
     persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.fdvideo=1 \
+    persist.vendor.camera.awb.sync=2 \
     persist.vendor.camera.fdvideo=1 \
     persist.vendor.camera.awb.sync=2 \
     persist.vendor.flash.low.lux=390 \
@@ -153,6 +159,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.s5k3l8_ofilm.light.lux=367 \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.ltm.overlap=13
+
+    PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.hal1.packagelist=com.intsig.camscanner,com.instagram.android \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
