@@ -192,7 +192,7 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
 
-# XiaomiParts
+# Device-specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
 
@@ -224,10 +224,6 @@ PRODUCT_PACKAGES += \
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
