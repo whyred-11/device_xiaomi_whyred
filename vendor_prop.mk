@@ -161,7 +161,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.ltm.overlap=13
 
     PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android \
+    vendor.camera.hal1.packagelist=com.intsig.camscanner,com.instagram.android \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Sensors
