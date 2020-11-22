@@ -259,10 +259,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
-#misc tweaks
-PRODUCT_PROPERTY_OVERRIDES += \
-    pm.sleep_mode=1
-
 #Listen
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger=nuance \
