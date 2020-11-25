@@ -8,6 +8,9 @@ audio_hal.in_period_size                u:object_r:vendor_default_prop:s0
 audio_hal.period_multiplier             u:object_r:vendor_default_prop:s0
 persist.audio.fluence.voicecomm         u:object_r:vendor_default_prop:s0
 
+# Dolby
+persist.vendor.dolby.loglevel u:object_r:vendor_dolby_loglevel_prop:s0
+
 # Fingerprint
 fpc_kpi                                 u:object_r:vendor_default_prop:s0
 gf.debug.dump_data                      u:object_r:vendor_fp_prop:s0
