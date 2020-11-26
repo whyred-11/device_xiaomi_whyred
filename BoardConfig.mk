@@ -66,6 +66,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := predator_defconfig
+KERNEL_TOOLCHAIN := /home/iqbal/los/prebuilts/gcc/linux-x86/aarch64/gcc10/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
 TARGET_KERNEL_NEW_GCC_COMPILE := true
 
 # QCOM
