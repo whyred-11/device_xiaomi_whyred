@@ -39,8 +39,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RD1A.201105.003.C1 6886399 release-keys"
+    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.13.0.OEIMIFA release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys"
+BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys
 
 TARGET_VENDOR := Xiaomi
