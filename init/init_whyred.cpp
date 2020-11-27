@@ -53,6 +53,16 @@ void property_override(char const prop[], char const value[], bool add = true) {
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
+void property_override_multifp(char const buildfp[], char const systemfp[],
+      char const bootimagefp[], char const vendorfp[], char const value[])
+{
+
+    property_override(buildfp, value);
+    property_override(systemfp, value);
+    property_override(vendorfp, value);
+    property_override(bootimagefp, value);
+}
+
 static void init_setup_model_properties() {
     const auto set_ro_product_prop = [](const std::string& source, const std::string& prop,
                                         const std::string& value) {
@@ -82,3 +92,14 @@ static void init_setup_model_properties() {
 void vendor_load_properties() {
     init_setup_model_properties();
 }
+
+	// fingerprint
+	property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.A1 6886512 release-keys");
+	property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "ro.bootimage.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys");
+
+	// Magisk Hide
+	property_override("ro.boot.verifiedbootstate", "green");
+	property_override("ro.boot.vbmeta.device_state", "locked");
+	property_override("ro.boot.veritymode", "permissive");
+	property_override("ro.build.type", "user");
+	property_override("ro.build.tags", "release-keys");
