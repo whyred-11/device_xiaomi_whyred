@@ -41,6 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="whyred" \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.13.0.OEIMIFA release-keys"
 
-BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.13.0.OEIMIFA:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys
 
 TARGET_VENDOR := Xiaomi
