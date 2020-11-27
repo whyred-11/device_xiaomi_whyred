@@ -89,9 +89,9 @@ static void init_setup_model_properties() {
     }
 }
 
-void vendor_load_properties()
-{
+void vendor_load_properties() {
     init_setup_model_properties();
+}
 
 	// fingerprint
 	property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.A1 6886512 release-keys");
@@ -103,4 +103,3 @@ void vendor_load_properties()
 	property_override("ro.boot.veritymode", "permissive");
 	property_override("ro.build.type", "user");
 	property_override("ro.build.tags", "release-keys");
-}
