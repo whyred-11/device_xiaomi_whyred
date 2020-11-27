@@ -424,6 +424,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KimciRecorder
 
+# Retro
+PRODUCT_PACKAGES += \
+    RetroMusic
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.class_main.sh \
