@@ -546,6 +546,9 @@ vendor/lib64/vendor.display.color@1.0.so|c7eb0d87e45934ad7ff34d0c977116ed4609186
 vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e535010
 vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
 
+# Power-off charging daemon
+-sbin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
+
 # QMI - from LA.UM.8.2.r1-05100-sdm660.0
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 product/lib64/libdiag_system.so|0e1cd9fc75bd6db88fe65ce40310355b3d8192fb
