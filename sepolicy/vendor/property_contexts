@@ -60,3 +60,7 @@ gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
 
 # Fix for WLAN tethering offload
 wifi.active.interface                   u:object_r:exported_wifi_prop:s0
+
+# vendor_default_prop
+vendor.camera.cpuperf.en                u:object_r:vendor_default_prop:s0
+vendor.display.lcd_density              u:object_r:vendor_default_prop:s0
