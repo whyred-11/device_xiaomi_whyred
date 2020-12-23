@@ -18,6 +18,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
+# Misc tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+    pm.sleep_mode=1
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee \
