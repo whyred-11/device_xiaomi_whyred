@@ -25,10 +25,15 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+#dirac
+$(call inherit-product, vendor/dirac/dirac.mk)
+
 # Inherit some common NusantaraROM stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-NAD_BUILD_TYPE := UNOFFICIAL
+NAD_BUILD_TYPE := UNOFFICIAL 
 TARGET_BOOT_ANIMATION_RES := 1080
+PRODUCT_PACKAGES += \
+    Dirac
 
 PRODUCT_NAME := nad_whyred
 PRODUCT_BRAND := Xiaomi
