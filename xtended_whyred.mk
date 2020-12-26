@@ -33,8 +33,6 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 XTENDED_BUILD_TYPE := UNOFFICIAL
 XTENDED_MAINTAINER := mohammad_iqbal
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_PACKAGES += \
-    Dirac
 
 PRODUCT_NAME := xtended_whyred
 PRODUCT_BRAND := Xiaomi
