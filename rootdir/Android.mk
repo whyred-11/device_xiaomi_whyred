@@ -93,7 +93,6 @@ LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)/init/hw
 include $(BUILD_PREBUILT)
 
 # Force Enforce
-
 nclude $(CLEAR_VARS)
 LOCAL_MODULE := init.enforcing.rc
 LOCAL_MODULE_TAGS := optional
