@@ -447,6 +447,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     fstab.qcom \
+    init.enforcing.rc \
     init.qti.can.sh
 
 # RCS
