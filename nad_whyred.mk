@@ -30,7 +30,7 @@ $(call inherit-product, vendor/dirac/dirac.mk)
 
 # Inherit some common NusantaraROM stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-NAD_BUILD_TYPE := UNOFFICIAL
+NAD_BUILD_TYPE := SPESIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_PACKAGES += \
     Dirac
