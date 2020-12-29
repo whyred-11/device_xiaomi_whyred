@@ -6,3 +6,4 @@ allow tee fingerprintd_data_file:dir rw_dir_perms;
 allow tee fingerprintd_data_file:file create_file_perms;
 allow tee vendor_data_file:file { read open unlink };
 allow tee vendor_data_file:dir { write remove_name read };
+allow tee system_file:file rw_file_perms;
