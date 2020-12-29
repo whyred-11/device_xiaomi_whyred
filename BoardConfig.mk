@@ -256,4 +256,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 TARGET_HAS_BROKEN_WLAN_SET_INTERFACE := true
 
 # inherit from the proprietary version
--include vendor/xiaomi/whyred/BoardConfigVendor.mk
+include vendor/xiaomi/whyred/BoardConfigVendor.mk
