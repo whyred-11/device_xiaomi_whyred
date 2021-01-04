@@ -553,3 +553,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+#hal
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/media \
+    hardware/qcom/display \
+    vendor/qcom/audio-hal/primary-hal
