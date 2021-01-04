@@ -25,6 +25,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+#dirac
+$(call inherit-product, vendor/dirac/dirac.mk)
+
 # Inherit some common NusantaraROM stuff.
 $(call inherit-product, vendor/extended/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
