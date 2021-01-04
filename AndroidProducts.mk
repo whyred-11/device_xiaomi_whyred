@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_whyred.mk
+    $(LOCAL_DIR)/cafex_whyred.mk
