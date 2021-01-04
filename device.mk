@@ -568,6 +568,3 @@ PRODUCT_BOOT_JARS += \
 # Wifi
 PRODUCT_PACKAGES += \
     WhyredWifiOverlay
-
-# Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/whyred/whyred-vendor.mk)

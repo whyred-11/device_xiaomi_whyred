@@ -21,9 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+
+#dirac
+$(call inherit-product, vendor/dirac/dirac.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
