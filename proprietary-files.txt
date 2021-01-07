@@ -705,10 +705,10 @@ vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
 -vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 
 # Time services - from LA.UM.8.2.r1-06300-sdm660.0
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
--vendor/lib/libtime_genoff.so|8fecae7eca45921b4562b416bac494188837fd43
--vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
-vendor/bin/time_daemon|a3efd58d57f23d0f8e7cfe8da0d7887b2f3e48e8
+-vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
+-vendor/lib/libtime_genoff.so|0e73ee0b125f4538d4afd76b4a4cd009176e98b1
+-vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
+vendor/bin/time_daemon|e62d164b8c8b30743837896d4c5e8bca39b364e6
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 
 # TUI - from jasmine V11.0.11.0.QDIMIXM
