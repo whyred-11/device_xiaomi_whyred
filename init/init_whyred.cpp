@@ -78,26 +78,7 @@ static void init_setup_model_properties() {
         }
     }
 }
-void set_avoid_gfxaccel_config() {
-    struct sysinfo sys;
-    sysinfo(&sys);
-
-    if (sys.totalram <= 3072ull * 1024 * 1024) {
-        // Reduce memory footprint
-        property_set("ro.config.avoid_gfx_accel", "true");
-    }
-}
 
 void vendor_load_properties() {
     init_setup_model_properties();
-{
-    check_device();
-	set_avoid_gfxaccel_config();
-
-    property_set("dalvik.vm.heapstartsize", heapstartsize);
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", heapsize);
-    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
 }
