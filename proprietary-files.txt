@@ -192,15 +192,13 @@ product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
 product/lib64/libdpmctmgr.so|3d4b87a4937caf3a8d276f48a4f0dc2cad246c5b
 product/lib64/libdpmfdmgr.so|e809155312a05d83b323ab0be64cb393d936e52a
+product/lib64/libdpmframework.so|2e8728c506402b5b546b7ab72440cacd019c433a
 product/lib64/libdpmtcm.so|71a3d624602807f6fa6cbdb3a489efe9e93de634
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 vendor/bin/dpmQmiMgr|d536096b310a2d3f30a683c1bdcad8658db1ba52
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|fbff6357ee46dd6d62f490a942ff567b6ce955d1
 vendor/lib64/libdpmqmihal.so|30a170684219dd589d05ce5b446e73b7501f13e3
-
-# DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
-system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
 
 # DRM and SEE - from jasmine V11.0.11.0.QDIMIXM
 vendor/bin/qseecomd|0c5e6d088e4d5600ce08915e7ef6ef28a99a2611
