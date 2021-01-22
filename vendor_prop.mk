@@ -280,3 +280,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Dolby
 vendor.audio.dolby.ds2.enabled=true
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.disable_init_blank=true \
+    ro.charger.enable_suspend=true
