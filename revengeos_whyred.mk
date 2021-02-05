@@ -31,7 +31,6 @@ $(call inherit-product, vendor/dirac/dirac.mk)
 # Inherit some common RevengeOS stuff
 $(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-REVENGEOS_BUILDTYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
 PRODUCT_PACKAGES += \
     Dirac
@@ -47,8 +46,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210105.003 7005429 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210205.004 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys
 
 TARGET_VENDOR := Xiaomi
