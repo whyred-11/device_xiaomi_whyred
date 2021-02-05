@@ -28,14 +28,15 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 #dirac
 $(call inherit-product, vendor/dirac/dirac.mk)
 
-# Inherit some common NusantaraROM stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-NAD_BUILD_TYPE := MOD-EDITION
+# Inherit some common RevengeOS stuff
+$(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+REVENGEOS_BUILDTYPE := UNOFFICIAL
+TARGET_INCLUDE_STOCK_ARCORE := true
 PRODUCT_PACKAGES += \
     Dirac
 
-PRODUCT_NAME := nad_whyred
+PRODUCT_NAME := revengeos_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
