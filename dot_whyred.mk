@@ -28,14 +28,14 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 #dirac
 $(call inherit-product, vendor/dirac/dirac.mk)
 
-# Inherit some common RevengeOS stuff
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common dotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 PRODUCT_PACKAGES += \
     Dirac
 
-PRODUCT_NAME := revengeos_whyred
+PRODUCT_NAME := dot_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
